@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Dancing Script', cursive;
+}
+.navbar {
+    background: linear-gradient(to bottom, #f87580, #f5a1a8, #f5c1b8, #f5d0ca);
+    height: 150px;
+}
+.inicio {
+    font-size: 90px;
+    color: #94353b;
+    text-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+
+}
+.geral {
+    background: linear-gradient(to bottom, #f87580, #f5a1a8, #f5c1b8, #f7a397, #ee9689);
+
+}
+.display-4 {
+    text-align: center;
+    color: #551c20 !important;
+}
+.lead {
+    text-align: center;
+    font-size: 26px !important;
+    color: #8b4b4f !important;
+}
+.card-maior {
+    background-color: #fad7d1 !important;
+    border: 0.5px solid rgb(245, 164, 164);
+    color: #8b4b4f !important;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.jumb-maior {
+    background-color: #fad7d1 !important;
+    border: 0.5px solid rgb(245, 164, 164);
+    color: #8b4b4f !important;
+    margin-top: 10px;
+}
+.info {
+    color: #8b4b4f !important;
+    text-align:left;
+
+}
+.card-titulo {
+    text-align: center;
+    color: #551c20;
+}
+form {
+    width: 40%;
+    min-width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.input-form,
+.textarea-form {
+    min-width: 320px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #D66D75;
+    margin-top: 20px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 24px;
+}
+
+.textarea-form {
+    height: 200px;
+    padding-top: 10px;
+}
+
+.button-form {
+    display: block;
+    margin: 20px auto;
+    height: 40px;
+    min-width: 320px;
+    border: none;
+    border-radius: 5px;
+    background: #eeb8af;
+    color: rgb(48, 43, 43);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.button-form:hover {
+    opacity: 0.8;
+}
+
+.button-form:active {
+    opacity: 0.6;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+p{
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 25px;
+    color: #D66D75;
+    
+
+}
+.geral2 {
+    background-image: url("img/fundoobg.png");
+}
+.div-obg{
+    width: 30%;
+    min-width: 350px;
+    background-color: rgb(243, 175, 175);
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    margin: 100px auto;
+    padding: 20px;
+    height: 400px;
+    text-align: center;
+}
+.botao-voltar img{
+    width: 100px;
+    height: 100px;
+    margin-top: 120px;
+}
+.div-obg h1 {
+    margin-top: 30px;
+}
